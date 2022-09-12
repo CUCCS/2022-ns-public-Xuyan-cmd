@@ -33,9 +33,11 @@
 - VirtualBox虚拟机管理 -> 虚拟介质管理
 - 选中所需的虚拟盘，将属性 -> 类型 修改为多重加载
 
-![Virtual hard disk multi-load interface 2](C:/Users/86150/Desktop/2022-ns-public-Xuyan-cmd/chap0%C3%9701/img/Virtual%20hard%20disk%20multi-load%20interface%202.png)
+![Virtual hard disk multi-load interface 2](img/Virtual%20hard%20disk%20multi-load%20interface%202.png)
 
-![Virtual hard disk multi-load interface 1](C:/Users/86150/Desktop/2022-ns-public-Xuyan-cmd/chap0%C3%9701/img/Virtual%20hard%20disk%20multi-load%20interface%201.png)
+信息如下：
+
+![Virtual hard disk multi-load interface 1](img/Virtual%20hard%20disk%20multi-load%20interface%201.png)
 
 ### 2.搭建虚拟机网络拓扑
 
@@ -48,23 +50,25 @@
 - 内部网络intnet1，搭建局域网1；
 - 内部网络intnet2，搭建局域网2。
 
-<img src="C:/Users/86150/Desktop/2022-ns-public-Xuyan-cmd/chap0%C3%9701/img/Gateway%20network%20card%20configuration.png" alt="Gateway network card configuration" style="zoom:50%;" />
+![Gateway network card configuration](img/Gateway%20network%20card%20configuration.png)
 
 **攻击者**需三块网卡
 
 - NAT网络;
 - 两块不同的Host-Only.
 
-![Attacker network card configuration](C:/Users/86150/Desktop/2022-ns-public-Xuyan-cmd/chap0%C3%9701/img/Attacker%20network%20card%20configuration.png)
+![Attacker network card configuration](img/Attacker%20network%20card%20configuration.png)
 
 **victim**都需一块网卡
 
 - 内部网络，使不同组的victim在不同局域网内;
 - victim-xp-1 与 victim-kali-1 在同一局域网内（intnet1）； victim-xp2 与 victim-debian-2 在同一局域网内（intnet2）
 
-![windowsxp1](C:/Users/86150/Desktop/2022-ns-public-Xuyan-cmd/chap0%C3%9701/img/windowsxp1.png)
+![windowsxp1](img/windowsxp1.png)
 
-![Debian victim2](C:/Users/86150/Desktop/2022-ns-public-Xuyan-cmd/chap0%C3%9701/img/Debian%20victim2.png)
+如下：
+
+![Debian victim2](img/Debian%20victim2.png)
 
 ### 3.连通性测试
 
