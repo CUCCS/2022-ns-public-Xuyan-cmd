@@ -561,6 +561,5 @@ nmap -sU -p 53 172.16.111.144
 - [TCP SYN (Stealth) Scan (-sS) | Nmap Network Scanning](https://nmap.org/book/synscan.html)
 - [TCP FIN, NULL, and Xmas Scans (-sF, -sN, -sX) | Nmap Network Scanning](https://nmap.org/book/scan-methods-null-fin-xmas-scan.html)
 - [TCP UDP Scan (-sU) | Nmap Network Scanning](https://nmap.org/book/scan-methods-udp-scan.html)
-- [【示例代码】xuanhun/PythonHackingBook1](https://github.com/xuanhun/PythonHackingBook1/blob/1d495637af2b344094e322f34a7ae4d6deae0605/3.7 端口扫描/code/portScan.py)
 - [argparse --- 命令行选项、参数和子命令解析器](https://docs.python.org/zh-cn/3/library/argparse.html#argparse.ArgumentParser)
 - [Linux下scapy运行时报错：No module named scapy](https://www.jianshu.com/p/0967710a3b9f)
